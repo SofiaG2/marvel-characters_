@@ -9,7 +9,7 @@ Desde la carpeta principal del proyecto se debe abrir Docker Desktop y esperar a
 
 ### 2. Configurar la conexión a la base de datos: 
 Una vez esté funcionando PostgreSQL, se entra a la carpeta donde se encuentra el proyecto de NestJS: cd marvel-characteres
-Después, se debe crear .env a partir del archivo .env.example que está en la carpeta principal. Se puede hacer con el siguiente comando: powershell
+Después, se debe crear .env a partir del archivo .env.example que está en la carpeta principal. Se puede hacer con el siguiente comando:
 Copy-Item ..\.env.example .\.env
 
 ### 3. Instalar las dependencias: 
