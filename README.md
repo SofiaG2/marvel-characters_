@@ -5,8 +5,7 @@ Realizado por: Andrés Felipe Rodriguez Acosta - 202322292 y Sofía Garzón Mari
 ## Instalación y ejecución:
 
 ### 1. Iniciar PostgreSQL con Docker:
-Desde la carpeta principal del proyecto se debe abrir Docker Desktop y esperar a que esté funcionando. Después, se ejecuta: docker compose up -d
-La primera vez que se ejecuta este comando, Docker crea el contenedor de PostgreSQL y carga las tablas teams y characters junto con los datos iniciales que están en db/init.sql. Y para comprobar que el contenedor está funcionando correctamente, se puede ejecutar: docker compose ps
+Desde la carpeta principal del proyecto se debe abrir Docker Desktop y esperar a que esté funcionando. Después, se ejecuta: docker compose up -d .La primera vez que se ejecuta este comando, Docker crea el contenedor de PostgreSQL y carga las tablas teams y characters junto con los datos iniciales que están en db/init.sql. Y para comprobar que el contenedor está funcionando correctamente, se puede ejecutar: docker compose ps
 
 ### 2. Configurar la conexión a la base de datos: 
 Una vez esté funcionando PostgreSQL, se entra a la carpeta donde se encuentra el proyecto de NestJS: cd marvel-characteres
